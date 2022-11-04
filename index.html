@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Keeper</title>
+    <script src="https://kit.fontawesome.com/047635a8ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="show-modal">Add Bookmark</h1>
+    <div class="item-container" id="item-container">
+        
+    </div>
+
+    <div class="modal-container" id="modal">
+        <div class="modal" id="modal-inside">
+            <i class="fa-regular fa-circle-xmark close-icon" id="close-modal"></i>
+            <div class="modal-header">
+                <h3>Add Bookmark</h3>
+            </div>
+            <div class="modal-content">
+                <form id="bookmark-form">
+                    <div class="form-group">
+                        <label for="website-name" class="form-label">website Name</label>
+                        <input type="text" class="form-input" id="website-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="website-url" class="form-label">website URL</label>
+                        <input type="text" class="form-input" id="website-url">
+                    </div>
+                    <button type="submit">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
